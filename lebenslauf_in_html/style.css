@@ -30,20 +30,37 @@ html, body {
     margin: auto;
 }
 
+.language_selector{
+    position: absolute;top:27px; left: 1400px;
+}
+
+
+
 .job_description{
     text-align:center;
+}
+
+.hr_line_to_beruflicher_werdegang{
+    color: rgb(254,169,184);
+    margin-right: 5%;
 }
 
 
 /*Beruflicher Werdegang*/
 
+.beruflicher_werdegang_title{
+    text-align: center;
+}
 
+.beruflicher_werdegang{
+    margin-right: 5%;
+}
 
 
 /*sidbar part*/
 .box_sidepanel {
     box-sizing: content-box;
-    width: 10%;
+    width: 11%;
     height: 970px;
     background-color: rgb(254,169,184);
     position:fixed;
@@ -66,16 +83,17 @@ html, body {
 }
 
 .contact_info_paragraph{
-    text-align: center;
+    text-align: left;
     margin: auto;
 }
 
 .email, .phone_number{
-    font-size:  3.5rem;
-    text-align: center;
+    font-size:  0.70rem;
 }
 
-
+.envelope_position, .phone_position{
+    position: relative; top:4px;
+}
 
 
 
