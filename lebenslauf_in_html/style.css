@@ -1,0 +1,87 @@
+body{
+    background-color: dimgray;
+}
+
+html, body {
+    margin: 0;
+    height: 100%
+}
+
+
+.CV_page{
+    width: 1200px;
+    height: 970px;
+    margin: auto;
+    background-color: rgb(91, 206, 250);
+}
+
+/* main page part*/
+
+
+/*title and job description*/
+.CV_main_page{
+    width: 80.0%;
+    margin-left: 20.0%;
+}
+
+
+.h1 {
+    text-align: center;
+    margin: auto;
+}
+
+.job_description{
+    text-align:center;
+}
+
+
+/*Beruflicher Werdegang*/
+
+
+
+
+/*sidbar part*/
+.box_sidepanel {
+    box-sizing: content-box;
+    width: 10%;
+    height: 970px;
+    background-color: rgb(254,169,184);
+    position:fixed;
+}
+
+
+/*profile picture*/
+
+.profile_pic {
+    width: 80%;
+    margin: 10% ;
+}
+
+
+/*email and telephone*/
+
+.contact_info{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.contact_info_paragraph{
+    text-align: center;
+    margin: auto;
+}
+
+.email, .phone_number{
+    font-size:  3.5rem;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
