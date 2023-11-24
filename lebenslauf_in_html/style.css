@@ -1,16 +1,13 @@
-body{
-    background-color: dimgray;
-}
-
 html, body {
     margin: 0;
-    height: 100%
+    height: 100%;
+    background-color: dimgray;
 }
 
 
 .CV_page{
     width: 1200px;
-    height: 970px;
+    height: auto;
     margin: auto;
     background-color: rgb(91, 206, 250);
 }
@@ -21,6 +18,7 @@ html, body {
 /*title and job description*/
 .CV_main_page{
     width: 80.0%;
+    height: 100%;
     margin-left: 20.0%;
 }
 
@@ -56,12 +54,82 @@ html, body {
     margin-right: 5%;
 }
 
+/*Ausbildung*/
+
+.Ausbildung_Überschrift{
+    margin-left: 15%;
+}
+
+.beruflicher_werdegang_title{
+    text-align: center;
+}
+
+.beruflicher_werdegang{
+    margin-right: 5%;
+}
+
+/*Ausbildung*/
+
+.Ausbildung_Überschrift{
+    margin: 0 0 0 0%;
+}
+
+
+/*Studium*/
+
+.Studium{
+    margin: 3em 5% 0 15%;
+}
+
+.Praktikumsbetreuer{
+    margin: 3em 5% 0 15%;
+}
+
+.Experimentelle_Übungen_II{
+    margin: 3em 5% 0 15%;
+}
+
+.Experimentelle_Übungen_I{
+    margin: 3em 5% 0 15%;
+}
+
+.Praktikum_EidP{
+    margin: 3em 5% 0 15%;
+}
+
+/* Freiwilliges Ökologisches Jahr*/
+
+.FÖJ{
+    margin: 3em 5% 0 15%; 
+}
 
 /*sidbar part*/
 .box_sidepanel {
     box-sizing: content-box;
     width: 11%;
     height: 970px;
+    background-color: rgb(254,169,184);
+    position:fixed;
+}
+
+
+/*profile picture*/
+
+.profile_pic {
+    width: 80%;
+    margin: 10% ;
+}
+.Ausbildung{
+    margin: 0 5% 0 15%;
+}
+
+
+
+/*sidbar part*/
+.box_sidepanel {
+    box-sizing: content-box;
+    width: 11%;
+    height: 100vh;
     background-color: rgb(254,169,184);
     position:fixed;
 }
@@ -80,6 +148,10 @@ html, body {
 .contact_info{
     margin-left: 10%;
     margin-right: 10%;
+}
+
+.contact{
+    margin-top: 0px;
 }
 
 .contact_info_paragraph{
