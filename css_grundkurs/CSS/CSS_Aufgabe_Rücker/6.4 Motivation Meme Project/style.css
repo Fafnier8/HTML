@@ -1,0 +1,31 @@
+html{
+    background-color: black;
+}
+
+#meme_pic_div{
+    border: 5px solid white;
+    width: 50%;
+    margin-left: 25%;
+}
+
+/* display: block; removes small space under image*/
+
+#meme_pic{
+    width: 100%;
+    display: block;
+}
+
+#meme_subtext{
+    color: white;
+    text-align: center;
+}
+
+.meme_text{
+    font-size: large;
+}
+
+
+#meme_header{
+    text-transform: uppercase;
+    font-family: 'Libre Baskerville', serif;
+}
