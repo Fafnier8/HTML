@@ -1,0 +1,189 @@
+
+html, body{
+    font-family: 'gg sans', sans-serif;
+    background-color: 	#282b30;
+    height: 100%;
+    margin: 0;
+}
+
+#product_page{
+    height: auto;
+    margin: auto;
+}
+
+head{
+    margin: 0%;
+}
+
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+p{
+    color: white;
+    text-align: center;
+}
+
+
+#central_text{
+    margin-left: 20%;
+    width: 50%;
+    position: relative;  top: 275px;
+    font-size:xx-large;
+}
+
+#discord_logo{
+    background-color: white;
+    position: relative; top: 26px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+/* Text Channel part in upper left corner */
+
+#text_channel_box{
+    position: absolute;
+    top: 60px;
+    left: 200px;
+}
+
+/* line-height removes space above a header */
+
+#text_channel_header{
+    line-height: 0%;
+}
+
+#text_channel_image_div{
+    margin-top: 1em;
+    margin-left: 1.7em;
+    border: 3px solid #7289da;
+    width: 140px;
+}
+
+#text_channel_image{
+    width: 100%;
+    display: block;
+}
+
+/* voice channel part in upper right corner */
+
+#voice_channel_div{
+    position: absolute;
+    top: 60px;
+    left: 1200px;
+}
+
+#voice_channel_header{
+    line-height: 0%;
+}
+
+#voice_channel_image_div{
+    margin-top: 1em;
+    margin-left: 0.5em;
+    border: 3px solid #7289da;
+    width: 200px;
+}
+
+#voice_channel_image{
+    width: 100%;
+    display: block;
+}
+
+/* Roles part in supper left corner */
+
+#roles_div{
+    position: absolute;
+    top: 400px;
+    left: 210px;
+}
+
+/* line-height removes space above a header */
+
+#roles_header{
+    line-height: 0%;
+}
+
+#roles_image_div{
+    margin-top: 1em;
+    margin-left: 0.5em;
+    border: 3px solid #7289da;
+    width: 160px;
+}
+
+#roles_image{
+    width: 100%;
+    display: block;
+}
+
+/* screen share part in supper right corner */
+
+#screen_share_div{
+    position: absolute;
+    top: 400px;
+    left: 1100px;
+}
+
+/* line-height removes space above a header */
+
+#screen_share_header{
+    line-height: 0%;
+}
+
+#screen_share_image_div{
+    margin-top: 1em;
+    margin-left: 0.5em;
+    border: 3px solid #7289da;
+    width: 350px;
+}
+
+#screen_share_image{
+    width: 100%;
+    display: block;
+}
+
+/* promotion sentences */
+
+/* linear- gradient does a colour gradient for your background 
+    background-clip: text; defines that the background ahould extend to the text 
+    -webkit-background-clip: text; adds browser compatability
+    transparent let use backgorund colour for text
+*/
+
+#get_it_now_div{
+    font-size:xxx-large;
+    position: absolute;
+    top: 140px;
+    left: 500px;
+    background: linear-gradient(to right,rgba(255, 215, 255, 0) 0%, rgba(225, 255, 255, 0.5) 20%, rgba(255, 255, 255, 0) 61%), linear-gradient(45deg, rgb(229, 36, 14) 0%, rgb(231, 236, 70) 30%, rgb(70, 232, 124) 40%, rgb(90, 242, 245) 60%, rgb(226, 45, 214) 80%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: rotate(-10deg);
+    /* Define an animation named wave that runs every 2 seconds */
+    animation: wave 1000ms ease alternate infinte;
+    transition: all 0.4s ease;
+}
+
+@keyframes wave{
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 1% 10px;
+    }
+}
+
+#for_free{
+    font-size:xxx-large;
+    position: absolute;
+    top: 500px;
+    left: 640px;
+    background: linear-gradient(to right,rgba(255, 215, 255, 0) 0%, rgba(225, 255, 255, 0.5) 20%, rgba(255, 255, 255, 0) 61%), linear-gradient(45deg, rgb(229, 36, 14) 0%, rgb(231, 236, 70) 30%, rgb(70, 232, 124) 40%, rgb(90, 242, 245) 60%, rgb(226, 45, 214) 80%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: rotate(10deg);
+}
+
+
