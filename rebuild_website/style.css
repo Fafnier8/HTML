@@ -1,0 +1,35 @@
+
+/* First view of the webpage with name introduction */
+html, body{
+    margin: 0%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#first_page_view_div{
+    background-color: #E4f9f5;
+    height: 640px;
+    border-top: 175px solid;
+    border-color: #E4f9f5;
+}
+
+
+#upper_right_cloud_div{
+    position: absolute;
+    left: 1505px;
+    top: 40px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 0%;
+    font-family: 'Sacramento', serif;
+    color: #66bfbf;
+    font-size: 90px;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Montserrat';
+    color: #66bfbf;
+    font-size: 40px;
+}
