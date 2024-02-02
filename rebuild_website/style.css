@@ -21,15 +21,47 @@ html, body{
 
 h1{
     text-align: center;
-    margin-top: 0%;
     font-family: 'Sacramento', serif;
     color: #66bfbf;
     font-size: 90px;
+    margin-top: 0%;
+    margin-bottom: 0.62em;
 }
 
 h2{
     text-align: center;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     color: #66bfbf;
     font-size: 40px;
+    font-weight: 300;
+    margin-top: 0%;
+    margin-bottom: 1.3em;  
+}
+
+#down_left_cloud_div{
+    position: absolute;
+    left: 300px;
+}
+
+#mountain_div{
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+}
+
+#middle_content_part_div{
+    margin-top: 100px;
+}
+
+#introduction_div{
+    text-align: center;
+}
+
+#hello{
+    margin-top: 3%;
+}
+
+#intro_text{
+    font-size: larger;
+    margin:0 35% 0 35%;
 }
