@@ -2,7 +2,7 @@
 /* First view of the webpage with name introduction */
 html, body{
     margin: 0%;
-    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
 }
 
 #first_page_view_div{
@@ -20,7 +20,6 @@ html, body{
 }
 
 h1{
-    text-align: center;
     font-family: 'Sacramento', serif;
     color: #66bfbf;
     font-size: 90px;
@@ -29,7 +28,6 @@ h1{
 }
 
 h2{
-    text-align: center;
     font-family: 'Montserrat', sans-serif;
     color: #66bfbf;
     font-size: 40px;
@@ -38,13 +36,30 @@ h2{
     margin-bottom: 1.3em;  
 }
 
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    color: #66bfbf;
+}
+
+p{
+    font-size: larger;
+    font-family: 'Comic Neue', san-serif;
+    line-height: 30px;
+}
+
+hr{
+    margin: 8% auto;
+    border-top:  dotted pink 10px;
+    width: 5%;
+}
+
 #down_left_cloud_div{
     position: absolute;
     left: 300px;
 }
 
 #mountain_div{
-    text-align: center;
     position: relative;
     bottom: 10px;
 }
@@ -53,15 +68,28 @@ h2{
     margin-top: 100px;
 }
 
-#introduction_div{
-    text-align: center;
-}
 
 #hello{
     margin-top: 3%;
 }
 
-#intro_text{
-    font-size: larger;
-    margin:0 35% 0 35%;
+.intro_text{
+    margin:0 35% 0% 35%;
+}
+
+#skill_pic_chilli{
+    width: 11em;
+    float: left;
+    margin-right: 2%;
+}
+
+.skills_text{
+    text-align: left;
+    margin: 5% 30% 0 25%;
+}
+
+#skill_pic_halloween_deco{
+    width: 11em;    
+    float: right;
+    margin-left: 2%;
 }
